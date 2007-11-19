@@ -26,12 +26,20 @@
  * Objetos de interfase humana
     * ######### #
  * Disminución de latencia
+    * El botón "Cancelar" se deshabilita por 5 segundos al clickearlo. Solo por 5 segundos porque es únicamente para evitar clicks múltiples. El usuario tiene la capacidad de evaluar si es necesario presionarlo nuevamente, por lo tanto le devuelvo la posibilidad de hacerlo.
  * Aprendizaje
+    * Se intenta que todo el sistema (títulos, textos, vínculos, etc...) sean autodescriptivos y que no se necesite aprender términos nuevos para utilizarlo.
  * Uso de metáforas
+    * ######### #
  * Protección del trabajo del usuario
+    * Cuando se da de alta un socio se guarda constantemente el trabajo del usuario.
  * Legibilidad
+    * Las fuentes son claras y con alto contraste. De todas formas el texto puede ser ampliado de tamaño por el navegador.
  * Seguimiento de estado
+    * Se le informa al usuario constantemente de donde esta parado.
+    * Los links son claros al indicar a donde lo llevan.
  * Navegación visible
+    * El sitio no es para nada extenso, al contrario, por lo que darle la sensación al usuario de que se encuentra contenido dentro de un mismo espacio, en el mismo lugar.
 
 == Requisitos ==
  * Si estoy en el medio de una transacción extensa, que guarde registros en caso de caída del sistema.
@@ -69,17 +77,3 @@ En caso que se pueda reservar para dos días, poner las opciones en la celda y e
 == Bibliografía ==
  * "Don't make me think" Steve Krug. New Riders.
  * "Designing Interfaces" Jenifer Tidwell. O'Reilly.
-
----
-
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
