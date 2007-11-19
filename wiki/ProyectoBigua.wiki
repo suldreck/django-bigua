@@ -1,0 +1,85 @@
+#summary Proyecto para la materia Análisis de Sistemas de la Carrera Analista Programador de la Universidad ORT Uruguay. [http://code.google.com/p/django-bigua/source Repositorio].
+
+== Usabilidad ==
+[http://www.asktog.com/basics/firstPrinciples.html First Principles of Interaction Design]
+ * Anticipación
+    * Los campos que pueden dar lugar a dudas tienen texto de ayuda.
+ * Autonomía
+    * Se le indica al usuario constantemente donde se encuentra.
+    * Se distingue claramente cuando el usuario esta logueado de cuando no lo está.
+ * Daltonismo
+    * Se utiliza fondo blanco y letras negras, o viceversa.
+ * Consistencia
+    * Se reservan áreas para el contenido, si no hay contenido se aclara, pero el área permanece en su lugar. Esto evita que el usuario se desoriente.
+ * Valores por omisión
+    * Se intenta no presentar valores por omisión cuando es posible.
+    * Se evalúa la situación para evitar que el usuario deba completar algunos campos de forma repetitiva: Cancelable.
+ * Eficiencia del usuario
+    * El usuario puede completar todos los datos de la reserva en una misma pantalla, esto evita que deba esperar mientras se recarga la página.
+    * Se divide la página de reservas entre reservas hechas y el formulario para crear nuevas.
+    * Interfaz de administrador: el menú se divide por la keyword "reservas".
+ * Interfaces explorables
+    * La interfaz de reserva tiene muchos espacios para que el usuario descubra, la interfaz responde a sus acciones y él puede decidir que mostrar y que ocultar.
+ * [http://www.asktog.com/columns/022DesignedToGiveFitts.html Ley de Fitt]
+    * Los botones son de gran tamaño. Por ej, menú.
+    * No se despliegan nunca dos botones de opuestas consecuencias juntos, por ej: "Aceptar" y "Cancelar".
+ * Objetos de interfase humana
+    * ######### #
+ * Disminución de latencia
+ * Aprendizaje
+ * Uso de metáforas
+ * Protección del trabajo del usuario
+ * Legibilidad
+ * Seguimiento de estado
+ * Navegación visible
+
+== Requisitos ==
+ * Si estoy en el medio de una transacción extensa, que guarde registros en caso de caída del sistema.
+ * Utilizar iconos, no solo texto.
+ * Colores amigables.
+ * Letra grande.
+ * Ayuda en línea.
+ * Idiomas.
+ * Estadísticas. Permitir filtrar los datos por variados parámetros.
+
+== Dudas ==
+ * &iquest;Qué datos son necesarios para el login además de la contraseña?
+   * *¿Número de socio?*
+   * ¿Usuario?
+   * ¿Cédula?
+   * ¿Cualquiera de los anteriores?
+ * ¿Qué pasa cuando un invitado (socio o no) quiere cancelar la reserva?
+   * *¿Cancela la reserva?*
+   * ¿Cancela su parte y deja la reserva incompleta?
+   * ¿Se le informa al admin?
+ * ¿El admin puede cancelar la reserva de un usuario?
+   * *Sí, pero el usuario debe especificar que se lo permite.*
+
+Opción: El admin puede cancelar la reserva, siempre que lo haga dentro del margen correspondiente. La función del margen es que otro usuario pueda registrar la cancha, no que lo haga el mismo usuario, por lo que esta función se cumple. El público de la cancha de tenis es gente que no siempre tiene una computadora con conexión a Internet a mano, pero si al menos un teléfono celular.
+
+== Reserva ==
+Cuadro similar al de reserva de equipo de la ORT. Hora y canchas, con un mapa al final. Los cuadros se diferencian por colores.
+ * Rojo: No se puede reservar;
+ * Verde: Se puede reservar para hoy o mañana.
+ * Azulcito: Se puede reservar solo para hoy o para mañana.
+En caso que se pueda reservar para dos días, poner las opciones en la celda y esconder el contenido con CSS y mostrarlo al hacer click con jquery.
+
+[http://tuxie.debianuruguay.org/xtras/bigua/ Ejemplo de reserva.]
+
+== Bibliografía ==
+ * "Don't make me think" Steve Krug. New Riders.
+ * "Designing Interfaces" Jenifer Tidwell. O'Reilly.
+
+---
+
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
