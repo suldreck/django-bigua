@@ -1,4 +1,4 @@
-#summary Proyecto para la materia Análisis de Sistemas de la Carrera Analista Programador de la Universidad ORT Uruguay. [http://code.google.com/p/django-bigua/source Repositorio].
+#summary Proyecto para la materia Análisis de Sistemas de la Carrera Analista Programador de la Universidad ORT Uruguay. Repositorio: http://code.google.com/p/django-bigua/source.
 
 == Usabilidad ==
 [http://www.asktog.com/basics/firstPrinciples.html First Principles of Interaction Design]
