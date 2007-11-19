@@ -65,15 +65,6 @@
 
 Opción: El admin puede cancelar la reserva, siempre que lo haga dentro del margen correspondiente. La función del margen es que otro usuario pueda registrar la cancha, no que lo haga el mismo usuario, por lo que esta función se cumple. El público de la cancha de tenis es gente que no siempre tiene una computadora con conexión a Internet a mano, pero si al menos un teléfono celular.
 
-== Reserva ==
-Cuadro similar al de reserva de equipo de la ORT. Hora y canchas, con un mapa al final. Los cuadros se diferencian por colores.
- * Rojo: No se puede reservar;
- * Verde: Se puede reservar para hoy o mañana.
- * Azulcito: Se puede reservar solo para hoy o para mañana.
-En caso que se pueda reservar para dos días, poner las opciones en la celda y esconder el contenido con CSS y mostrarlo al hacer click con jquery.
-
-[http://tuxie.debianuruguay.org/xtras/bigua/ Ejemplo de reserva.]
-
 == Bibliografía ==
  * "Don't make me think" Steve Krug. New Riders.
  * "Designing Interfaces" Jenifer Tidwell. O'Reilly.
