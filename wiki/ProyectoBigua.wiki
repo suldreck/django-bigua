@@ -73,3 +73,5 @@ Opción: El admin puede cancelar la reserva, siempre que lo haga dentro del marg
 = Bibliografía =
  * "Don't make me think" Steve Krug. New Riders.
  * "Designing Interfaces" Jenifer Tidwell. O'Reilly.
+
+:wq
