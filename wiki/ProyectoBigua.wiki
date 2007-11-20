@@ -21,7 +21,7 @@ http://code.google.com/p/django-bigua/source
     * El usuario puede completar todos los datos de la reserva en una misma pantalla, esto evita que deba esperar mientras se recarga la página.
     * Se divide la página de reservas entre reservas hechas y el formulario para crear nuevas.
     * Interfaz de administrador
-      * El menú se divide por la keyword "reservas".
+      * El menú se divide por keywords, por ej "reservas".
       * Se despliegan simultáneamente todos los errores en los formularios, en vez de informarse de a uno. Esto evita que el usuario se sienta frustrado al recibir un error nuevo cada vez que intenta guardar su trabajo.
  * Interfaces explorables
     * La interfaz de reserva tiene muchos espacios para que el usuario descubra, la interfaz responde a sus acciones y él puede decidir que mostrar y que ocultar.
