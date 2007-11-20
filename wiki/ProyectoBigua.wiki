@@ -1,6 +1,9 @@
-#summary Proyecto para la materia Análisis de Sistemas de la Carrera Analista Programador de la Universidad ORT Uruguay. Repositorio: http://code.google.com/p/django-bigua/source.
+#summary Proyecto para la materia Análisis de Sistemas de la Carrera Analista Programador de la Universidad ORT Uruguay.
 
-== Usabilidad ==
+= Repositorio =
+http://code.google.com/p/django-bigua/source
+
+= Usabilidad =
 [http://www.asktog.com/basics/firstPrinciples.html First Principles of Interaction Design]
  * Anticipación
     * Los campos que pueden dar lugar a dudas tienen texto de ayuda.
@@ -41,7 +44,7 @@
  * Navegación visible
     * El sitio no es para nada extenso, al contrario, por lo que darle la sensación al usuario de que se encuentra contenido dentro de un mismo espacio, en el mismo lugar.
 
-== Requisitos ==
+= Requisitos =
  * Si estoy en el medio de una transacción extensa, que guarde registros en caso de caída del sistema.
  * Utilizar iconos, no solo texto.
  * Colores amigables.
@@ -50,8 +53,8 @@
  * Idiomas.
  * Estadísticas. Permitir filtrar los datos por variados parámetros.
 
-== Dudas ==
- * &iquest;Qué datos son necesarios para el login además de la contraseña?
+= Dudas =
+ * ¿Qué datos son necesarios para el login además de la contraseña?
    * *¿Número de socio?*
    * ¿Usuario?
    * ¿Cédula?
@@ -65,6 +68,6 @@
 
 Opción: El admin puede cancelar la reserva, siempre que lo haga dentro del margen correspondiente. La función del margen es que otro usuario pueda registrar la cancha, no que lo haga el mismo usuario, por lo que esta función se cumple. El público de la cancha de tenis es gente que no siempre tiene una computadora con conexión a Internet a mano, pero si al menos un teléfono celular.
 
-== Bibliografía ==
+= Bibliografía =
  * "Don't make me think" Steve Krug. New Riders.
  * "Designing Interfaces" Jenifer Tidwell. O'Reilly.
