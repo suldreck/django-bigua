@@ -35,7 +35,9 @@ http://code.google.com/p/django-bigua/source
  * Aprendizaje
     * Se intenta que todo el sistema (títulos, textos, vínculos, etc...) sean autodescriptivos y que no se necesite aprender términos nuevos para utilizarlo.
  * Uso de metáforas
-    * ######### #
+    * En el menú del administrador se utilizan metáforas, por ej:
+      * El directorio de socios se representa con una agenda.
+      * El link "Administrar reservas" se muestra con una escoba como icono, dando la idea de acomodar, poner orden.
  * Protección del trabajo del usuario
     * Cuando se da de alta un socio se guarda constantemente el trabajo del usuario.
  * Legibilidad
