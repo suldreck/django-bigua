@@ -72,8 +72,4 @@ http://code.google.com/p/django-bigua/source
 
 Opción: El admin puede cancelar la reserva, siempre que lo haga dentro del margen correspondiente. La función del margen es que otro usuario pueda registrar la cancha, no que lo haga el mismo usuario, por lo que esta función se cumple. El público de la cancha de tenis es gente que no siempre tiene una computadora con conexión a Internet a mano, pero si al menos un teléfono celular.
 
-= Bibliografía =
- * "Don't make me think" Steve Krug. New Riders.
- * "Designing Interfaces" Jenifer Tidwell. O'Reilly.
-
 :wq
