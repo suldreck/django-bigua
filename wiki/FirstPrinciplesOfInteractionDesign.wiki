@@ -1,4 +1,4 @@
-#summary Los 16 principios de diseño de interacción y como fueron aplicados al proyecto.
+#summary Los 16 principios de diseño de interacción de Bruce "Tog" Tognazzini y como fueron aplicados en el proyecto.
 #labels usabilidad,Featured
 
 = Usabilidad =
